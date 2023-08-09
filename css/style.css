@@ -1,0 +1,49 @@
+body{
+    background: #20002c;  
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
+    background: linear-gradient(to right, #cbb4d4, #20002c); 
+}
+
+
+.b-shadow{
+    box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFACAC 0px 0px 20px, #FFACAC 0px 0px 30px, #FFACAC 0px 0px 40px, #FFACAC 0px 0px 50px, #FFACAC 0px 0px 75px;
+}
+
+
+.icon{
+    display: inline-block;
+    background: rgb(203,180,212);
+    background: radial-gradient(circle, rgba(203,180,212,1) 0%, rgba(32,0,44,1) 100%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.progress1{
+    background-color: #cbb4d4;
+    z-index: -2;
+    height: 5px;
+    top: 50%;
+    width: 100%;
+    transition: all 1s ;
+transform: translateY(-50%);
+}
+
+.progress2{
+    background-color: #20002c;
+    z-index: -1;
+    height: 5px;
+width: 0%;
+    top: 50%;
+transform: translateY(-50%);
+transition: all 1s ;
+
+}
+
+button{
+    box-shadow: #20002c 2px 2px 20px;
+}
+.btn:focus{
+    box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFACAC 0px 0px 20px, #FFACAC 0px 0px 30px, #FFACAC 0px 0px 40px, #FFACAC 0px 0px 50px, #FFACAC 0px 0px 75px;
+}
